@@ -41,7 +41,7 @@ async function disconnectDB(){
 
 
 //Listening to server
-app.listen(3001);
+app.listen(3000);
 //connectDB()
-console.log("Server listening at port: 3001");
+console.log("Server listening at port: 3000");
 
