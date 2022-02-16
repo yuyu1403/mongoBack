@@ -44,5 +44,5 @@ async function disconnectDB(){
 const port = process.env.PORT || 3000
 app.listen(port);
 //connectDB()
-console.log("Server listening at port: 3000");
+console.log("Server listening at port: " + port);
 
